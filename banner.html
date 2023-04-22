@@ -24,12 +24,13 @@
         <img src="moon.png" id="moon">
         <img src="mountains_behind.png" id="mountains_behind">
         <h2 id="text" style="margin-left: 50%"> Linhdayyy</h2>
-        <a href="#sel" id="btn" style="margin-top: 0px;position: absolute;">Explore</a>
+        <a href="#sel" id="explore-btn" style="margin-top: 11%;position: absolute;">Explore</a>
         <img src="mountains_front.png" id="mountains_front">
     </selection>
     <div class="sel" id="sel">
         <h2>Giới thiệu</h2>
-        <p> Anh đi lạc trong sóng gió cuộc đời
+        <div>
+            Anh đi lạc trong sóng gió cuộc đời
             Nào biết đâu sớm mai liệu bình yên có tới?
             Âu lo chạy theo những ánh sao đêm
             Ngày cứ trôi chớp mắt thành phố đã sáng đèn
@@ -89,7 +90,8 @@
             Anh biết nơi để quay về em biết những nơi phải đi
             Anh biết chỗ trú chân dọc đường để tránh cơn mưa hạ đến mỗi chiều
             Ta biết trao nhau ân cần biết mỗi khi vui buồn có nhau
-            Thời gian để ta trưởng thành với nhau.</p>
+            Thời gian để ta trưởng thành với nhau.
+        </div>
     </div>
     <script>
         let stars = document.getElementById('stars');
@@ -106,8 +108,7 @@
             mountains_behind.style.top = scrollY * 0.5 + 'px';
             mountains_front.style.top = scrollY * 0 + 'px';
             text.style.marginLeft = Math.floor((text.parentNode.offsetWidth / 2) - (scrollY * 3)) + 'px';
-
-            text.style.fontSize = '' + Math.floor(text.parentNode.offsetHeight / 20) + 'px';
+            text.style.fontSize = '' + Math.floor(text.parentNode.offsetHeight / 10) + 'px';
         }
 
         window.addEventListener('load', refreshSize);
