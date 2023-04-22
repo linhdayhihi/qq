@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type ="text/css" href="style.css">
+</head>
+<body>
+    <header> 
+        <a href="#" class="logo" >HEHE</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="#" >Work</a></li>
+            <li><a href="#" >Contact</a></li>
+        </ul>
+    </header>
+    <selection>
+        <img src = "stars.png" id ="stars">
+        <img src = "moon.png" id ="moon">
+        <img src = "mountains_behind.png" id = "mountains_behind">
+        <h2 id = "text"> Linhdayyy</h2>
+        <a href = "#sel" id="btn"> Explore</a>
+        <img src = "mountains_front.png" id = "mountains_front">
+    </selection>
+    <div class="sel" id = "sel">
+        <h2>Giới thiệu</h2>
+        <p> Anh đi lạc trong sóng gió cuộc đời
+            Nào biết đâu sớm mai liệu bình yên có tới?
+            Âu lo chạy theo những ánh sao đêm
+            Ngày cứ trôi chớp mắt thành phố đã sáng đèn
+            Ta cứ lặng lẽ chạy thật mau, yêu thương chẳng nói kịp thành câu... biết đâu liệu mai còn thấy nhau?
+            Thức giấc để anh còn được thấy ánh mắt của em nhẹ nhìn anh, đôi tay này sẽ không xa rời.
+            
+            Tạm gác hết những âu lo lại, cùng anh bước trên con đường
+            Ta sẽ không quay đầu để rồi phải tiếc nuối những chuyện cũ đã qua
+            Giữ trái tim luôn yên bình và quên hết những ưu phiền vấn vương
+            Cuộc đời này được bao lần nói yêu.
+            
+            Anh biết nơi để quay về, em biết những nơi phải đi
+            Anh biết chỗ trú chân dọc đường để tránh cơn mưa hạ đến mỗi chiều
+            Ta biết trao nhau ân cần, biết mỗi khi vui buồn có nhau
+            Thời gian để ta trưởng thành với nhau.
+            
+            Nhảy với anh đến khi đôi chân ta mỏi rã rời
+            Hát với anh những câu ca từ ngày xưa cũ
+            Thì thầm khẽ anh nghe em vẫn còn bao niềm mơ
+            Ôm lấy anh nghe mưa đầu mùa ghé chơi.
+            
+            
+            Một giây không thấy nhau như một đời này cô đơn quá
+            Trời mù mây bỗng xanh ngát xanh khi em khẽ cười
+            Một ngày anh biết hết nguyên do của những yên vui trong đời
+            Ngày mà duyên kiếp kia đưa ta gần lại với nhau.
+            
+            Tạm gác hết những âu lo lại, cùng anh bước trên con đường
+            Ta sẽ không quay đầu để rồi phải tiếc nuối những chuyện cũ đã qua
+            Giữ trái tim luôn yên bình và quên hết những ưu phiền vấn vương
+            Cuộc đời này được bao lần nói yêu.
+            
+            Anh biết nơi để quay về, em biết những nơi phải đi
+            Anh biết chỗ trú chân dọc đường để tránh cơn mưa hạ đến mỗi chiều
+            Ta biết trao nhau ân cần biết mỗi khi vui buồn có nhau
+            Thời gian để ta trưởng thành với nhau.
+            
+            Bờ vai anh rộng đủ để che chở cho em
+            Was a boy now a man, cho em
+            Từng đi lạc ở trong thế giới điên loạn ngoài kia và tình yêu em trao anh ngày ấy đã mang anh về bên em
+            Yêu em như a fat kid loves cake, nhắm mắt cảm nhận tình yêu tan dịu ngọt trên môi khi em hôn môi anh đây, yo
+            Không phải happy ending, mỗi bình minh ta viết thêm trang mới, nối dài câu chuyện mình.
+            
+            Như trong mơ nơi xa kia xanh biếc xanh biếc
+            Thiên đàng bên em nơi đây anh biết anh biết
+            Bóng đêm đã qua yên bình có thêm chúng ta nghe lòng đàn từng câu ca
+            Cuộc đời này chẳng hề hối tiếc
+            Dẫu khó khăn khiến anh gục ngã
+            Anh biết em luôn ở đó nơi anh thuộc về.
+            
+            
+            Tạm gác hết những âu lo lại, cùng anh bước trên con đường
+            Ta sẽ không quay đầu để rồi phải tiếc nuối những chuyện cũ đã qua
+            Giữ trái tim luôn yên bình và quên hết những ưu phiền vấn vương
+            Cuộc đời này được bao lần nói yêu
+            
+            Anh biết nơi để quay về em biết những nơi phải đi
+            Anh biết chỗ trú chân dọc đường để tránh cơn mưa hạ đến mỗi chiều
+            Ta biết trao nhau ân cần biết mỗi khi vui buồn có nhau
+            Thời gian để ta trưởng thành với nhau.</p>
+    </div>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            // stars.style.left = value * 0.25 +'px';
+            // moon.style.top = value * 1.05 +'px';
+            mountains_behind.style.top = value * 0 +'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 +'px';
+            //text.style.marginTop = value * 1.5 +'px';
+            btn.style.marginTop = value * 1.5 +'px';
+            header.style.top = value *0.5 +'px';
+        })
+    </script>
+</body>
+</html>
