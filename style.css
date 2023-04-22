@@ -103,12 +103,18 @@ img#stars{
 #text 
 {
     position: absolute;
-    right: -350px;
-    top: 400px;
+    display: block;
+    /* right: -350px; */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    /* font-size: 7.5vw; */
     z-index: 9;
+
+    transition: left .15s linear;
 }
 #btn
 {
